@@ -1,3 +1,7 @@
 export default function Home() {
-    return <></>;
+    return (
+        <>
+            <h1 className='font-bold text-3xl'>Strt Building your App!</h1>
+        </>
+    );
 }
