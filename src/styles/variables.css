@@ -1,0 +1,74 @@
+:root {
+  --background: 0 0% 100%; /*Main background*/
+  --foreground: 222.2 84% 4.9%; /*Primary text*/
+
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 84% 4.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 84% 4.9%;
+
+  --primary: 199 89% 41%; /*Primary-Brand Color*/
+  --primary-strong: 200 98% 39%; /*Primary-Brand hover,text color*/
+  --primary-foreground: 0 0% 100%;
+  --secondary: 173 80% 40%; /*Secondary-Brand Color*/
+  --secondary-strong: 175 84% 32%; /*Secondary-Brand hover,text color*/
+  --secondary-foreground: 0 0% 100%;
+
+  --muted: 210 40% 96.1%; /*Muted background color- used as alternating background*/
+  --muted-foreground: 215.4 16.3% 46.9%; /*Muted text or tertiary text or gray-out text*/
+  --accent: 210 40% 96.1%; /*Hover background color*/
+  --accent-foreground: 222.2 47.4% 11.2%; /*Secondary text color*/
+
+  --destructive-foreground: 0 84.2% 60.2%; /*Error color*/
+  --destructive: var(--error);
+
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%; /*Input border color*/
+  --ring: var(--primary); /*Input focus ring color*/
+
+  --radius: 0.25rem;
+
+  --link: var(--primary-strong);
+  --error: 350 89% 55%;
+  --error-strong: 350 89% 45%;
+  --success: 142 71% 40%;
+  --success-strong: 142, 71%, 30%;
+  --warning: 38 92% 50%;
+  --warning-strong: 38 92% 45%;
+}
+.dark {
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+
+  --card: 222.2 84% 4.9%;
+  --card-foreground: 210 40% 98%;
+  --popover: 222.2 84% 4.9%;
+  --popover-foreground: 210 40% 98%;
+
+  --primary: 200 98% 39%;
+  --primary-strong: 199 89% 41%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 175 84% 32%;
+  --secondary-strong: 173 80% 40%;
+  --secondary-foreground: 0 0% 98%;
+
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+  --accent: 217.2 32.6% 17.5%;
+  --accent-foreground: 210 40% 98%;
+
+  --destructive: var(--error);
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 217.2 32.6% 17.5%;
+  --input: 217.2 32.6% 17.5%;
+  --ring: var(--primary);
+
+  --link: var(--primary-strong);
+  --error: 350 89% 45%;
+  --error-strong: 350 89% 55%;
+  --success: 142, 71%, 30%;
+  --success-strong: 142 71% 40%;
+  --warning: 38 92% 45%;
+  --warning-strong: 38 92% 50%;
+}
